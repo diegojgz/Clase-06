@@ -9,7 +9,7 @@ export default class Video {
     render() {
         let myParent = document.getElementById(this.parentID);
 
-        const videoTag = `<video controls width=${this.width} height= ${this.height}>
+        const videoTag = `<video controls width= ${this.width} height= ${this.height}>
                             <source src= ${this.url} type= ${type}>
                         </video>`
 

@@ -1,9 +1,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 /////Importar funciones o clases
 
-import Button from  "./Components/button";
-import Input from "./Components/input";
-import Video from "./Components/video";
+import Button from  ".//Components/button.js";
+import Input from "./Components/input.js";
+import Video from "./Components/video.js";
 //////////////////////////////////////////////////////////////////////////////////
 ///////Datos
 
