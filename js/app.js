@@ -21,7 +21,6 @@ function RenderButton(text){
   myButton.render();
 };
 
-
 function RenderInput(type) {
   let input_type = "none"
   switch (type) {
@@ -47,14 +46,7 @@ myArray1.forEach(element => RenderButton(element));
 
 inputArrayFiltered.forEach(element => RenderInput(element));
 
-let myVideo = new Video("videoID", "https://www.youtube.com/watch?v=50Ekudn8IyE",320, 480, "video/mp4");
+let myVideo = new Video("videoID", "https://www.w3schools.com/tags/movie.mp4",320, 480, "video/mp4");
 myVideo.render();
-
-// recordar que si las funciones tuvieran mas parametros o lineas deberiamos escribirlas como:
-// inputArrayFiltered.forEach(function (element) {
-//     RenderInput(element);
-//      
-// });
-
 
   
