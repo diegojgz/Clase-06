@@ -13,6 +13,11 @@ let inputArray = ['Username', 'Surname', 'E-mail', 'Password'];
 
 let inputArrayFiltered = inputArray.filter(element => element == "Password");
 
+let myVideo = new Video("videoID", "https://www.w3schools.com/tags/movie.mp4",500, 480, "video/mp4");
+myVideo.render();
+
+  
+
 //////////////////////////////////////////////////////////////////////////////////
 ////Funciones
 
@@ -45,7 +50,6 @@ myArray1.forEach(element => RenderButton(element));
 
 inputArrayFiltered.forEach(element => RenderInput(element));
 
-let myVideo = new Video("videoID", "https://www.w3schools.com/tags/movie.mp4",320, 480, "video/mp4");
-myVideo.render();
 
-  
+///////////////////////////////////////////////////////////////////////////
+

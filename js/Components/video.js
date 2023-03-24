@@ -10,7 +10,7 @@ export default class Video {
         let myParent = document.getElementById(this.parentID);
 
         const videoTag = `<video controls width= ${this.width} height= ${this.height}>
-                            <source src= ${this.url} type= ${type}>
+                            <source src= ${this.url} type= ${this.type}>
                         </video>`
 
         const myVideo = myParent.innerHTML + videoTag;
